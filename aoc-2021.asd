@@ -12,4 +12,9 @@
                 :depends-on ("packages")
                 :components
                 ((:file "solution")
+                 (:static-file "input.txt")))
+               (:module "02"
+                :depends-on ("packages")
+                :components
+                ((:file "solution")
                  (:static-file "input.txt")))))
